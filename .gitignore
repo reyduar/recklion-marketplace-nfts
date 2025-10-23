@@ -13,3 +13,58 @@ states/
 # Optional
 .env
 .env.local
+
+# ─────────────────────────────────────────────
+# 📁 Remix IDE Solidity Project .gitignore
+# ─────────────────────────────────────────────
+
+# Node dependencies (si usas scripts de Node)
+node_modules/
+
+# Compilaciones de Solidity
+artifacts/
+cache/
+build/
+out/
+
+# Archivos de configuración local de Remix
+.remix/
+remixd.log
+remix-tests/
+remix-plugins/
+remix-workspace.json
+
+# Archivos temporales o del sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configuración de entorno o credenciales
+.env
+.env.*
+.secret
+secrets.json
+
+# Archivos de pruebas locales
+coverage/
+coverage.json
+*.coverage
+*.lcov
+
+# Archivos de dependencias o lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de configuración personal de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos generados por herramientas externas
+typechain/
+dist/
+docs/
